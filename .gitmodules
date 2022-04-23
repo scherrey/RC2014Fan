@@ -2,3 +2,6 @@
 	path = RC2014
 	url = git@github.com:EtchedPixels/RC2014.git
 
+[submodule "RomWBW"]
+	path = RomWBW
+	url = git@github.com:scherrey/RomWBW.git
