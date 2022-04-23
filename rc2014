@@ -1,0 +1,11 @@
+if [ -f RC2014/rc2014 ];
+then
+    echo ""
+else
+    cd RC2014
+    make rc2014
+    cd ..
+fi
+echo "rc2014 Emulator"
+echo "<cntrl>-\ will exit the emulator."
+RC2014/rc2014 -b -s -z -r roms/RCZ80_std.rom
